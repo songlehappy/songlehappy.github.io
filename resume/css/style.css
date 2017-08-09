@@ -1,0 +1,50 @@
+html,body{
+    height: 100%;
+    background: #0dd;
+}
+
+/* header样式 */
+header{
+    height:30%;
+    padding:0 10%;
+    font-size: 21px;
+}
+.self-msg h2{
+    padding:40px 0;
+    font-size: 28px;
+}
+.self-msg ul{
+    overflow: hidden;
+}
+
+.self-msg ul li{
+    float: left;
+    padding:0 60px 40px 0;
+}
+
+.resume-msg ul{
+    overflow: hidden;
+}
+
+.resume-msg ul li{
+    float: left;
+    margin: 0 90px 50px 0;
+    padding:10px;
+    background: orange;
+    border: 1px solid magenta;
+    cursor: pointer;
+    color: #fff;
+}
+/* section样式 */
+section{
+    height: 70%;
+      overflow: hidden;
+}
+.detial{
+    /* width: 100%;
+    height: 933px; */
+}
+.detial>div{
+    width: 100%;
+    height: 933px;
+}
