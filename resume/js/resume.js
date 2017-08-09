@@ -44,7 +44,7 @@ var resume = {
 
 
 //开始进入
-$(function () {
+onload=function(){
     resume.initResume();
     new WOW({
         boxClass: 'hello',
@@ -53,5 +53,6 @@ $(function () {
         mobile: true,
         live: true,
     }).init();
-})
+
+}
 
